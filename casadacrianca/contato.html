@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="shortcut icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <style>
+        form {
+            padding: 10px;
+            margin: 5px;
+            box-shadow: 1px 1px 4px black;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="interface">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <div class="container">
+
+                <a class="navbar-brand h1 mb-0" href="#">Casa da Criança</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSite">
+
+                    <ul class="navbar-nav mr-auto ">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Quem Somos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetos.html">Projetos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="eventos.html">Eventos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="fotos.html">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="parceiros.html">Parceiros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container">
+
+            <div id="carouselSite" class="carousel slide my-2" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                    <li data-target="#carouselSite" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-interval="3000">
+
+                        <img src="imgs/banner_1.jpg" class="img-fluid d-block" alt="">
+
+                    </div>
+
+                    <div class="carousel-item" data-interval="3000">
+
+                        <img src="imgs/banner_2.jpg" class="img-fluid d-block" alt="">
+
+                    </div>
+
+                    <div class="carousel-item" data-interval="3000">
+
+                        <img src="imgs/banner_3.jpg" class="img-fluid d-block" alt="">
+
+                    </div>
+
+                    <div class="carousel-item" data-interval="3000">
+
+                        <img src="imgs/banner_4.jpg" class="img-fluid d-block" alt="">
+
+                    </div>
+
+                    <div class="carousel-item" data-interval="3000">
+
+                        <img src="imgs/banner_5.jpg" class="img-fluid d-block" alt="">
+
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Anterior</span>
+
+                </a>
+                <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Avançar</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="container my-3">
+
+            <div class="row">
+
+                <div class="col-3 d-none d-md-block">
+
+                    <div id="bloco-esquerdo">
+                        <strong>Contato</strong></br>
+                        <b>Telefone:</b> 55 11 5686.3288 / 3624.2660</br>
+                        <b>Fax:</b> 55 11 5686.3288</br>
+                        <b>Endereço:</b> Rua Padre Chico, 320 - Santo Amaro - SP</br>
+
+                        <a href="#" class="btn">
+                            <h5>FAÇA SUA DOAÇÃO AQUI</h5>
+                        </a>
+                        <b>Como chegar</b>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29236.300189345522!2d-46.696303!3d-23.656728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5044e9cd157d%3A0xbf3e2ecf9acf3808!2sR.+Padre+Chico%2C+320+-+Santo+Amaro%2C+S%C3%A3o+Paulo+-+SP%2C+04662-002%2C+Brasil!5e0!3m2!1spt-BR!2sus!4v1556317561367!5m2!1spt-BR!2sus"
+                            width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <a href="#">
+                            <img src="imgs/banner_casa_da_crianca.jpg" class="img-fluid">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-9" id="bloco-direito">
+
+                    <h1 class="formatado">Contato</h1>
+
+                    <form action="#" method="POST">
+
+                        <div class="form-group row">
+                            <label for="tNome" class="col-sm-2 col-form-label">Nome</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="tNome" name="tNome"
+                                    placeholder="Nome Completo">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="tNum" class="col-sm-2 col-form-label">CPF</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="tNum" name="cNum"
+                                    placeholder="054.726.558-XX">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="tEmp" class="col-sm-2 col-form-label">Empresa</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="tEmp" name="cEmp" placeholder="fulano">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="tMail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="tMail" name="cMail"
+                                    placeholder="exemplo@hotmail.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="tTel" class="col-sm-2 col-form-label">Telefone</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="tTel" name="cTel"
+                                    placeholder="(xx) xxxxx-xxxx">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="tMsg" class="col-sm-2 col-form-label">Mensagem</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="tMsg" name="cMsg"
+                                    placeholder="Deixe sua mensagem aqui" style="resize: none" rows="4"></textarea>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-lg mb-3">Enviar</button>
+
+                    </form>
+
+                </div>
+
+                <footer>
+
+                    <div class="container-fluid mt-5">
+
+                        <div class="row">
+
+                            <div class="col-sm-4 my-4">
+
+                                <strong>Casa da Criança e Adolescente Santo Amaro Grossarl</strong></br>
+                                Rua Padre Chico, 320</br>
+                                Santo Amaro - São Paulo - SP</br>
+                                Cep: 04747-090</br>
+                                Tel. 55 11 5686.3288 / 3624.2660</br>
+                                Fax. 55 11 5686.3288</br>
+                                Email: casadacriancacca@hotmail.com
+
+
+                            </div>
+
+                            <div class="col-sm-4 my-4">
+
+                                <strong>Registros Institucionais</strong></br>
+                                - Utilidade Pública Federal Portaria nº1026 de 09/01/01 Publ. DOE 12/11/01</br>
+                                - Utilidade Pública Federal Portaria n44.732 de 29/02/00 Publ. DOE 01/03/00
+
+                            </div>
+
+                            <div class="col-sm-4 my-4" id="icons">
+
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <div class="foto-rodape">
+                                        <figure>
+                                            <img src="imgs/linkedin.png">
+                                            <figcaption>Linkedin</figcaption>
+                                        </figure>
+                                    </div>
+                                </a>
+
+                                <a href="https://twitter.com/casadacriancasa" target="_blank">
+                                    <div class="foto-rodape">
+                                        <figure>
+                                            <img src="imgs/twitter.png">
+                                            <figcaption>Twitter</figcaption>
+                                        </figure>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.flickr.com/photos/casadacrianca/" target="_blank">
+                                    <div class="foto-rodape">
+                                        <figure>
+                                            <img src="imgs/flickr.png" alt="flickr">
+                                            <figcaption>Flickr</figcaption>
+                                        </figure>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <div class="foto-rodape">
+                                        <figure>
+                                            <img src="imgs/face.png">
+                                            <figcaption>Facebook<figcaptio>
+                                        </figure>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-12" style="background-color:rgb(0, 7, 100);">
+                                <span><i>&copy;copyright 2019 by - Alexsandro Pereira</i></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </footer>
+
+                <script src="../node_modules/jquery/dist/jquery.js"></script>
+                <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+                <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
+
+</div>
